@@ -1,0 +1,41 @@
+@import 'reset';
+@import 'global';
+@import 'libs';
+
+.game {
+
+  .game-box {
+    position: absolute;
+    min-width: 800px;
+    height: 50%;
+    padding: 35px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #3454;
+
+    &__title {
+      margin-bottom: 40px;
+      line-height: 120%;
+      border: 1px solid #3454;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    &__label {
+      margin-bottom: 15px;
+    }
+
+    &__result {
+      padding-top: 30px;
+    }
+
+    &__start {
+      max-width: 150px;
+      padding: 10px 15px;
+      background-color: green;
+      cursor: pointer;
+    }
+  }
+}
